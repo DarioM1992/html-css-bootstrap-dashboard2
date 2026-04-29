@@ -104,18 +104,26 @@
             </div>
         </form>
     </div>
-    <div class="container my-5"> 
-        <hr class="col-12">
-    </div>
-    <form>
-        <label for="notes" class="form-floating fw-bold">
-            Note
-        </label>
-        <textarea class="form-control" name="notes" id="notes" placeholder="Inserisci eventuali note sul libro"></textarea>
-    </form>
-    <form action="">
-        
-    </form>
+    <div class="container"> 
+        <div class="row">
+            <hr class="col-12 my-4">
+            <form>
+                <label for="notes" class="form-floating fw-bold">
+                Note
+                </label>
+                <textarea class="form-control" name="notes" id="notes" placeholder="Inserisci eventuali note sul libro" rows="4"></textarea>
+            </form>
+        </div>
 
+        <div class="form-check fw-semibold container my-4">
+            <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+            <label class="form-check-label" for="checkDefault">
+                Disponibile anche in digitale
+            </label>
+        </div>
+        <div>
+            <input class="btn btn-primary" type="button" value="Aggiungi un libro">
+        </div>
+    </div>
   </body>
 </html>
